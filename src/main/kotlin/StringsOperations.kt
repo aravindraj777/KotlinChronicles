@@ -44,3 +44,10 @@ fun multilineStrings(){
 
     print(textTrimMargin)
 }
+
+
+fun stringTemplates(){
+
+    val s = "abc"
+    println("$s has a length of ${s.length}")
+}
