@@ -25,4 +25,22 @@ fun multilineStrings(){
     """
 
     print(newTestText)
+
+
+    val textNew = """
+    for (c in "foo")
+        print(c)
+    """
+
+    print(textNew)
+
+
+    val textTrimMargin = """
+    |Tell me and I forget.
+    |Teach me and I remember.
+    |Involve me and I learn.
+    |(Benjamin Franklin)
+    """.trimMargin()
+
+    print(textTrimMargin)
 }
